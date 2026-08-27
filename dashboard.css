@@ -1,0 +1,6 @@
+
+body{background:#05070b;color:white;font-family:Arial;padding:30px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.stats div{background:#101722;padding:30px;border-radius:20px;text-align:center}
+b{font-size:35px;color:#1688ff}
+.lead{background:#101722;padding:15px;margin:10px;border-radius:10px}

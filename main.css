@@ -1,0 +1,8 @@
+
+body{background:#05070b;color:white;font-family:Arial;padding:30px}
+h1{color:#1688ff}
+.card,.stats div{background:#101722;border:1px solid #263040;padding:25px;border-radius:20px;margin:20px}
+.grid,.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+input,textarea{display:block;width:90%;padding:15px;margin:10px;background:#05070b;color:white;border:1px solid #333}
+button{background:#1688ff;color:white;border:0;padding:15px 30px;border-radius:30px}
+a{color:white;text-decoration:none}

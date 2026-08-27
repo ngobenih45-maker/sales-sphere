@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="css/main.css"></head>
+<body>
+<div class="card" id="profile">
+<h1>Your SalesSphere</h1>
+</div>
+<script>
+let p=JSON.parse(localStorage.getItem('profile'));
+if(p){document.getElementById('profile').innerHTML=`
+<h1>${p.name}</h1><h2>${p.company}</h2>
+<p>${p.industry}</p><p>${p.bio}</p>
+<a href="https://wa.me/27612657558">WhatsApp Me</a>`}
+</script>
+</body>
+</html>
