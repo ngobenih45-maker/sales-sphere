@@ -1,39 +1,86 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SalesSphere V2 Builder</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SalesSphere™ | Your Digital Sales Ecosystem</title>
+<meta name="description" content="SalesSphere helps professionals create digital sales platforms that capture leads and grow sales.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header>
-<h1>SalesSphere™ V2</h1>
-<p>Create your digital sales platform</p>
+<div class="logo">Sales<span>Sphere™</span></div>
+<nav>
+<a href="#features">Features</a>
+<a href="#industries">Industries</a>
+<a href="#pricing">Pricing</a>
+<a href="#contact">Contact</a>
+</nav>
 </header>
 
-<section class="card">
-<h2>Create Your SalesSphere</h2>
-<input id="name" placeholder="Your Name">
-<input id="company" placeholder="Company">
-<select id="industry">
-<option>Automotive</option>
-<option>Property</option>
-<option>Insurance</option>
-<option>Technology</option>
-<option>Finance</option>
-</select>
-<textarea id="bio" placeholder="Your sales introduction"></textarea>
-<button onclick="createSphere()">Generate Profile</button>
+<section class="hero">
+<div>
+<p class="tag">POWERED BY HLAKS WEB WONDERS</p>
+<h1>WHERE SALES<br><span>MEETS TECHNOLOGY</span></h1>
+<p>Create your personal digital sales ecosystem. Showcase products, capture customers, automate conversations and close more deals.</p>
+<a class="btn" href="#contact">Create Your SalesSphere</a>
+</div>
+<div class="sphere">
+<div>SALES<br>SPHERE</div>
+</div>
 </section>
 
-<section id="preview" class="card"></section>
-
-<section class="card">
-<h2>Add Lead</h2>
-<input id="lead" placeholder="Customer name">
-<button onclick="saveLead()">Save Lead</button>
-<div id="leads"></div>
+<section id="industries">
+<h2>One Platform. Multiple Industries.</h2>
+<div class="cards">
+<div>🚗<h3>Automotive</h3><p>Digital vehicle showrooms, finance tools and customer enquiries.</p></div>
+<div>🏠<h3>Property</h3><p>Property showcases and viewing requests.</p></div>
+<div>🛡<h3>Insurance</h3><p>Quote generation and consultation journeys.</p></div>
+<div>💻<h3>Technology</h3><p>Present solutions and capture business leads.</p></div>
+<div>💰<h3>Finance</h3><p>Professional client experiences.</p></div>
+</div>
 </section>
+
+<section id="features">
+<h2>Your Digital Sales Engine</h2>
+<div class="features">
+<p>✓ Personal Sales Profile</p>
+<p>✓ Product & Service Showcase</p>
+<p>✓ WhatsApp Automation</p>
+<p>✓ Lead Capture</p>
+<p>✓ Consultation Booking</p>
+<p>✓ CRM Ready</p>
+</div>
+</section>
+
+<section>
+<h2>How It Works</h2>
+<div class="steps">
+<div>01<br><b>Create Profile</b></div>
+<div>02<br><b>Add Products</b></div>
+<div>03<br><b>Receive Leads</b></div>
+<div>04<br><b>Close Sales</b></div>
+</div>
+</section>
+
+<section id="pricing">
+<h2>Pricing</h2>
+<div class="cards">
+<div><h3>Starter Sphere</h3><strong>R499/month</strong><p>Digital sales profile and lead capture.</p></div>
+<div><h3>Professional Sphere</h3><strong>R999/month</strong><p>Automation and advanced sales tools.</p></div>
+<div><h3>Business Sphere</h3><strong>R2499/month</strong><p>Teams, analytics and future CRM.</p></div>
+</div>
+</section>
+
+<section id="contact" class="cta">
+<h2>Ready To Build Your Digital Sales Advantage?</h2>
+<a class="btn" href="https://wa.me/27612657558">Start Your SalesSphere</a>
+</section>
+
+<footer>
+SalesSphere™ by Hlaks Web Wonders
+</footer>
 
 <script src="script.js"></script>
 </body>

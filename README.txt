@@ -1,11 +1,9 @@
-SalesSphere V2 Demo
+SalesSphere™ V1
+Created for Hlaks Web Wonders.
 
-Features:
-- Profile builder
-- Industry selection
-- Generated sales profile
-- WhatsApp connection
-- Local lead storage
+Upload:
+index.html
+style.css
+script.js
 
-Next upgrade:
-Real database, login system and CRM dashboard.
+Replace WhatsApp number in index.html when deploying.
