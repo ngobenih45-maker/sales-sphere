@@ -1,12 +1,11 @@
-
-SalesSphere V2.5 Dashboard CRM Demo
+SalesSphere V2 Demo
 
 Features:
-- Dashboard
-- CRM pipeline
 - Profile builder
-- Sales page generator
-- Local storage database
+- Industry selection
+- Generated sales profile
+- WhatsApp connection
+- Local lead storage
 
-Next:
-SalesSphere V3 real SaaS backend.
+Next upgrade:
+Real database, login system and CRM dashboard.

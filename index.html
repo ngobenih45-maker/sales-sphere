@@ -2,21 +2,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SalesSphere V2.5 CRM</title>
-<link rel="stylesheet" href="css/main.css">
+<title>SalesSphere V2 Builder</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-<h1>SalesSphere™</h1>
-<p>Digital Sales Command Centre</p>
+<h1>SalesSphere™ V2</h1>
+<p>Create your digital sales platform</p>
 </header>
 
-<div class="grid">
-<a class="card" href="dashboard.html">Open Dashboard</a>
-<a class="card" href="profile-builder.html">Create Sales Profile</a>
-<a class="card" href="sales-page.html">View Sales Page</a>
-</div>
+<section class="card">
+<h2>Create Your SalesSphere</h2>
+<input id="name" placeholder="Your Name">
+<input id="company" placeholder="Company">
+<select id="industry">
+<option>Automotive</option>
+<option>Property</option>
+<option>Insurance</option>
+<option>Technology</option>
+<option>Finance</option>
+</select>
+<textarea id="bio" placeholder="Your sales introduction"></textarea>
+<button onclick="createSphere()">Generate Profile</button>
+</section>
 
-<script src="js/app.js"></script>
+<section id="preview" class="card"></section>
+
+<section class="card">
+<h2>Add Lead</h2>
+<input id="lead" placeholder="Customer name">
+<button onclick="saveLead()">Save Lead</button>
+<div id="leads"></div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
